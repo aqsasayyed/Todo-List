@@ -1,12 +1,12 @@
 import './App.css';
-import Home from './components/Home'
+import TodoList from './components/TodoList';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'font-awesome/css/font-awesome.min.css'
 
 function App() {
   return (
     <div className="App">
-      <Home />
+   <TodoList />
     </div>
   );
 }
